@@ -233,3 +233,9 @@ For repeatable experiments:
 Review the Rossmann dataset's applicable Kaggle competition terms before redistributing the dataset or derived materials.
 
 Add an appropriate software license to this repository if you intend to distribute the project. Do not imply that the project has a license until one has been selected and added.
+
+## Dashboard Preview
+
+The Streamlit dashboard provides an overview of forecasting outputs, inventory optimization reports, and model performance.
+
+![AI Demand Forecasting Dashboard](assets/dashboard.png)
