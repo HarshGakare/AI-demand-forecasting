@@ -1,0 +1,32 @@
+project:
+  name: ai-demand-forecasting
+  version: 1.0.0
+  random_seed: 42
+
+data:
+  dataset: rossman
+  raw_path: data/raw
+  processed_path: data/processed
+  date_column: Date 
+  target_column: Sales
+
+forecast:
+  horizons:
+    - 7
+    - 14
+    - 30
+  validation_days: 30
+  test_days: 30
+  frequency: D
+
+training:
+  random_seed: 42
+  tuning_trials: 50
+  cv_splits: 3
+  scoring_metric: MAE
+
+database:
+  host: localhost
+  port: 3306
+  name: demand_forecasting
+  

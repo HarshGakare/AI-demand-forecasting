@@ -1,0 +1,2 @@
+ChampionModel,SelectionBasis,MeanMAE,MeanRMSE,MeanWAPE,FinalDecision,RecursiveForecastStatus,EnsembleStatus
+Tuned LightGBM,Rolling chronological cross-validation,428.3326846370647,641.6903107174924,7.345705433438622,Use tuned LightGBM as forecasting champion,Benchmark only; recursive error propagation materially reduced accuracy,Rejected; ETS ensemble did not improve final holdout performance

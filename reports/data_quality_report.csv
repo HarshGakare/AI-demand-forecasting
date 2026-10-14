@@ -1,0 +1,34 @@
+Dataset,Check,Column,Count,Severity,Details
+train_merged,Dataset not empty,ALL,1017209,PASS,"Dataset contains 1,017,209 rows"
+train_merged,Missing values,CompetitionDistance,2642,WARNING,2642 missing values (0.26%)
+train_merged,Missing values,CompetitionOpenSinceMonth,323348,WARNING,323348 missing values (31.79%)
+train_merged,Missing values,CompetitionOpenSinceYear,323348,WARNING,323348 missing values (31.79%)
+train_merged,Missing values,Promo2SinceWeek,508031,WARNING,508031 missing values (49.94%)
+train_merged,Missing values,Promo2SinceYear,508031,WARNING,508031 missing values (49.94%)
+train_merged,Missing values,PromoInterval,508031,WARNING,508031 missing values (49.94%)
+train_merged,Date validity,Date,0,PASS,All dates are valid
+train_merged,Duplicate records,"Store,Date",0,PASS,No duplicate key combinations found
+train_merged,Numeric range,Store,0,PASS,Invalid values: 0; missing values: 0; expected range: 1 to None
+train_merged,Numeric range,Sales,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to None
+train_merged,Numeric range,Open,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
+train_merged,Numeric range,Promo,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
+test_merged,Dataset not empty,ALL,41088,PASS,"Dataset contains 41,088 rows"
+test_merged,Missing values,CompetitionDistance,96,WARNING,96 missing values (0.23%)
+test_merged,Missing values,CompetitionOpenSinceMonth,15216,WARNING,15216 missing values (37.03%)
+test_merged,Missing values,CompetitionOpenSinceYear,15216,WARNING,15216 missing values (37.03%)
+test_merged,Missing values,Promo2SinceWeek,17232,WARNING,17232 missing values (41.94%)
+test_merged,Missing values,Promo2SinceYear,17232,WARNING,17232 missing values (41.94%)
+test_merged,Missing values,PromoInterval,17232,WARNING,17232 missing values (41.94%)
+test_merged,Date validity,Date,0,PASS,All dates are valid
+test_merged,Duplicate records,"Store,Date",0,PASS,No duplicate key combinations found
+test_merged,Numeric range,Store,0,PASS,Invalid values: 0; missing values: 0; expected range: 1 to None
+test_merged,Numeric range,Open,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
+test_merged,Numeric range,Promo,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
+features_train,Dataset not empty,ALL,978184,PASS,"Dataset contains 978,184 rows"
+features_train,Missing values,PromoInterval,488991,WARNING,488991 missing values (49.99%)
+features_train,Date validity,Date,0,PASS,All dates are valid
+features_train,Duplicate records,"Store,Date",0,PASS,No duplicate key combinations found
+features_train,Numeric range,Store,0,PASS,Invalid values: 0; missing values: 0; expected range: 1 to None
+features_train,Numeric range,Sales,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to None
+features_train,Numeric range,Open,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
+features_train,Numeric range,Promo,0,PASS,Invalid values: 0; missing values: 0; expected range: 0 to 1
