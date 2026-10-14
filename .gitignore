@@ -75,10 +75,12 @@ reports/*
 !reports/data_quality_report.csv
 !reports/ensemble_final_metrics.csv
 !reports/experiment_tracking_report.csv
+!reports/inventory_optimization.csv
 !reports/lightgbm_metrics.csv
 !reports/model_comparison_cv_summary.csv
 !reports/model_selection_cv_summary.csv
 !reports/multi_horizon_metrics.csv
+!reports/multi_horizon_predictions.csv
 !reports/recursive_forecast_metrics.csv
 !reports/rolling_cv_summary.csv
 !reports/shap_feature_importance.csv
